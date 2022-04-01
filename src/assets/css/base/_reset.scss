@@ -1,0 +1,51 @@
+html,
+body {
+  font-family: 'Noto Serif Display', 'Noto Sans TC', Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  color: $text-main;
+  background: $bg-yellow;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  min-height: calc(100vh - 68px);
+  flex-grow: 1;
+}
+
+a {
+  color: $text-main;
+  &:hover,
+  &:active {
+    color: $text-hover;
+  }
+}
+
+nav {
+  color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-text-fill-color: unset;
+}
+
+*:focus {
+  outline: none;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 12px;
+  background: $bg-green;
+}

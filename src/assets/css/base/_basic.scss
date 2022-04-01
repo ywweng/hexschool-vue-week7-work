@@ -1,0 +1,58 @@
+.form-floating {
+  .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $text-main;
+    &:focus,
+    &:hover {
+      border-bottom-color: $text-hover;
+    }
+  }
+}
+
+.btn-main {
+  background-color: $btn-bg-green;
+  color: $btn-text;
+  border: none;
+  border-radius: 30px;
+  &:hover {
+    color: $btn-text;
+    opacity: 0.8;
+  }
+}
+
+.btn-outline-main {
+  background-color: none;
+  color: $btn-bg-green;
+  border: 1px solid $btn-bg-green;
+  &:hover {
+    background-color: $btn-bg-green;
+    color: $btn-text;
+  }
+}
+
+.offcanvas {
+  background-color: $bg-green;
+}
+
+.page-link {
+  background: $btn-bg-green;
+  color: $btn-text;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.page-item.active {
+  .page-link {
+    background-color: $btn-bg-green;
+    border-color: $btn-bg-green;
+    opacity: 0.5;
+  }
+}
+
+.list {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
