@@ -161,7 +161,6 @@ export default {
       this.tempOrder = { ...order }
       this.$refs.OrderModal.openModal()
     }
-    // TODO:更新訂單＋訂單Modal
   },
   created() {
     this.getOrders()

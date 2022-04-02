@@ -45,5 +45,19 @@ export default {
     deleteOrderAll() {
       return apiHelper.delete(`${adminURL}/orders/all`)
     }
+  },
+  coupons: {
+    getCoupons(page) {
+      return apiHelper.get(`${adminURL}/coupons`, page)
+    },
+    postCoupon({ data }) {
+      return apiHelper.post(`${adminURL}/coupon`, { data })
+    },
+    putCoupon({ id, data }) {
+      return apiHelper.put(`${adminURL}/coupon/${id}`, { data })
+    },
+    deleteCoupon(id) {
+      return apiHelper.delete(`${adminURL}/coupon/${id}`)
+    }
   }
 }
