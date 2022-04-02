@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhexschool_vue_week6_work"]=self["webpackChunkhexschool_vue_week6_work"]||[]).push([[654],{6654:function(e,n,u){u.r(n),u.d(n,{default:function(){return k}});var r=u(6252);const o=(0,r._)("h2",null,"首頁",-1),c=[o];function t(e,n){return(0,r.wg)(),(0,r.iD)("div",null,c)}var l=u(3744);const s={},h=(0,l.Z)(s,[["render",t]]);var k=h}}]);
+//# sourceMappingURL=654.63029b20.js.map
